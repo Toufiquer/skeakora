@@ -32,11 +32,11 @@ export const defaultLayout = {
 
 export const defaultDataCompanyStory: ICompanyStoryData = {
   pageUid: "company-story-uid",
-  pageName: "NexaMart Story",
-  eyebrow: "NexaMart · NxMart",
+  pageName: "Speakora Story",
+  eyebrow: "Speakora · NxMart",
   showEyebrow: true,
-  title: "NexaMart is an online shopping platform in Bangladesh.",
-  subtitle: "NexaMart serves customers across Bangladesh.",
+  title: "Speakora is an online shopping platform in Bangladesh.",
+  subtitle: "Speakora serves customers across Bangladesh.",
   primaryAction: "Browse products",
   secondaryAction: "Contact us",
   sections: [],

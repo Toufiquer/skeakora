@@ -46,7 +46,7 @@ export const defaultDataSection18: Section18Data = {
     {
       id: "1",
       image: "/Logo.png",
-      title: "NexaMart",
+      title: "Speakora",
       description: "Online shopping across Bangladesh.",
       buttonText: "Browse products",
       buttonLink: "/products",

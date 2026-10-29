@@ -66,7 +66,7 @@ const ImagePanel = ({ src, className, delay, sizes, loading, reduceMotion }: Ima
   >
     <Image
       src={src}
-      alt="NexaMart collage"
+      alt="Speakora collage"
       fill
       unoptimized
       sizes={sizes}

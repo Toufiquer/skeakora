@@ -45,9 +45,9 @@ export interface Section46Props {
 export const defaultDataSection46: Section46Data = {
   id: "section-uid-46",
   showEyebrow: true,
-  eyebrow: "NEXAMART · NXMART",
+  eyebrow: "Speakora · NXMART",
   title: "Products",
-  description: "Browse the products currently available on NexaMart.",
+  description: "Browse the products currently available on Speakora.",
   institutions: [],
   backgroundColor: "#ffffff",
   headingColor: "#29399b",

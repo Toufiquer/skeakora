@@ -48,7 +48,7 @@ export async function sendNotification(message: string) {
     await webpush.sendNotification(
       subscription,
       JSON.stringify({
-        title: "NexaMart",
+        title: "Speakora",
         body: message.trim() || "You have a new notification.",
         icon: "/Logo.png",
         url: "/",
