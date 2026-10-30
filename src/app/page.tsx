@@ -7,8 +7,8 @@
 */
 
 import type { Metadata, ResolvingMetadata } from "next";
-import Link from "next/link";
 
+import HomeQuery from "@/components/pages/home/Query";
 import { PageBlocks } from "@/components/pages/PageBlocks";
 import { PwaControls } from "@/components/pwa-controls";
 import { getPublishedPageSeoMetadata } from "@/lib/pages/seo-metadata";
@@ -60,20 +60,9 @@ export default async function Home() {
   }
 
   return (
-    <main className="flex flex-1 items-center justify-center bg-zinc-50 px-6 py-16 font-sans dark:bg-zinc-950">
-      <section className="w-full max-w-xl rounded-3xl bg-white p-8 shadow-sm ring-1 ring-zinc-950/5 dark:bg-zinc-900 dark:ring-white/10 sm:p-10">
-        <p className="text-sm font-semibold tracking-[0.2em] text-blue-600">Speakora · NxMart</p>
-        <h1 className="mt-3 text-4xl font-bold tracking-tight text-zinc-950 dark:text-white">
-          Online shopping across Bangladesh
-        </h1>
-        <p className="mt-4 text-lg leading-8 text-zinc-600 dark:text-zinc-300">
-          Browse available products and shop online with Speakora.
-        </p>
-        <Link className="mt-5 inline-block text-sm font-semibold text-blue-600 hover:underline" href="/products">
-          Browse products
-        </Link>
-        <PwaControls />
-      </section>
+    <main className="flex-1">
+      <HomeQuery />
+      <PwaControls />
     </main>
   );
 }
